@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ezequiel Paes</h1>
+        <p>Profissional de Análise de Dados | Especialista em Power BI</p>
+    </header>
+    
+    
+    
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Ezequiel e sou um analista de dados com 2 anos de experiência na área. Minha paixão é criar dashboards interativos para auxiliar na tomada de decisão.</p>
+        <p>Ao longo da minha carreira, já trabalhei em diversos projetos desafiadores que me permitiram desenvolver habilidades em Power BI, Dax, SQL e Power Query.</p>
+    </section>
+    
+    <section id="projetos">
+        <h2>Projetos Recentes</h2>
+        <div class="projetos-grid">
+            <div class="projeto">
+                <img src="3195378.jpg" alt="Projeto 1">
+                <div class="projeto-info">
+                    <h3>Projeto 1</h3>
+                </div>
+            </div>
+            
+            <div class="projeto">
+                <img src="3184215.jpg" alt="Projeto 2">
+                <div class="projeto-info">
+                    <h3>Projeto 2</h3>
+                </div>
+            </div>
+            
+            <div class="projeto">
+                <img src="2800232.jpg" alt="Projeto 3">
+                <div class="projeto-info">
+                    <h3>Projeto 3</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul class="lista-habilidades">
+            <li>Análise de Dados</li>
+            <li>Tratamento de Dados</li>
+            <li>Criação de dashboards</li>
+            <li>Dominio em Linguagem Dax</li>
+            <li>Pacote Office</li>
+            <li>Pentaho</li>
+        </ul>
+    </section>
+    
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Interessado em trabalhar juntos ou saber mais sobre meu trabalho? Envie uma mensagem!</p>
+        
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <input type="text" placeholder="Assunto">
+            <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; <span id="ano"></span> Ezequiel Paes. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script>
+        // Atualiza o ano no footer automaticamente
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
