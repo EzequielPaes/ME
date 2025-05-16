@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #3498db;
+    color: #0f4b87;
 }
 
 section {
@@ -64,7 +64,7 @@ section h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
     color: #2c3e50;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #0f4b87;
     padding-bottom: 0.5rem;
     display: inline-block;
 }
@@ -120,7 +120,7 @@ section h2 {
 }
 
 #contato h2 {
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #0f4b87;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
 }
@@ -145,7 +145,7 @@ input, textarea, button {
 }
 
 button {
-    background-color: #3498db;
+    background-color: #0f4b87;
     color: #f9f9f9;
     border: none;
     cursor: pointer;
@@ -153,7 +153,7 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color:#0f4b87;
 }
 
 footer {
@@ -176,7 +176,7 @@ footer {
 }
 
 .redes-sociais a:hover {
-    color: #3498db;
+    color: #0f4b87;
 }
 
 @media (max-width: 768px) {
